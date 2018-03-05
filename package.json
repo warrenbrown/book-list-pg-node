@@ -1,0 +1,17 @@
+{
+  "name": "book-list-pg-node",
+  "version": "1.0.0",
+  "description": "A book list app that list books",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Warren Brown",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "mustache-express": "^1.2.5"
+  }
+}
