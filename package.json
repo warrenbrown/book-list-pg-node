@@ -10,8 +10,10 @@
   "author": "Warren Brown",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "dotenv": "^5.0.1",
     "express": "^4.16.2",
-    "mustache-express": "^1.2.5"
+    "mustache-express": "^1.2.5",
+    "pg": "^7.4.1"
   }
 }

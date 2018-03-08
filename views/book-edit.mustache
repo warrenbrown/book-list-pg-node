@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Edit Book Form</title>
+  </head>
+  <body>
+    <form class="" action="/book/edit/{{book.book_id}}" method="post">
+      <label for="title">Title:</label>
+      <input type="text" name="title" placeholder="title" value="{{book.title}}"><br>
+      <label for="authors">Author:</label>
+      <input type="text" name="authors" placeholder="author name" value="{{book.authors}}"><br>
+      <button type="submit">Edit Book</button>
+    </form>
+  </body>
+</html>
