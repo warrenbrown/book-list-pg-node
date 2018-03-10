@@ -3,14 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Edit Book Form</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
-    <form class="" action="/book/edit/{{book.book_id}}" method="post">
-      <label for="title">Title:</label>
-      <input type="text" name="title" placeholder="title" value="{{book.title}}"><br>
-      <label for="authors">Author:</label>
-      <input type="text" name="authors" placeholder="author name" value="{{book.authors}}"><br>
-      <button type="submit">Edit Book</button>
-    </form>
+    <div class="container">
+      <h1>Edit {{ book.title}}</h1>
+      <form class="" action="/book/edit/{{book.book_id}}" method="post">
+        <div class="form-group">
+          <label for="title">Title:</label>
+          <input class="form-control" type="text" name="title" placeholder="title" value="{{book.title}}">
+        </div>
+        <div class="form-group">
+          <label for="authors">Author:</label>
+          <input class="form-control" type="text" name="authors" placeholder="author name" value="{{book.authors}}">
+        </div>
+
+        <button class="btn btn-primary" type="submit">Edit Book</button>
+      </form>
+    </div>
   </body>
 </html>
