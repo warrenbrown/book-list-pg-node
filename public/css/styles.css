@@ -2,3 +2,10 @@ body {
   margin-top: 10px;
   background: #f9f9f9;
 }
+
+#myModal {
+  position: fixed;
+  margin-top: 10px;
+  top: 0;
+  left: 0;
+}
